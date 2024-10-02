@@ -1,0 +1,18 @@
+/* Scroll bar ko hide karne ke liye jab tak content overflow na kare */
+.scroll-container {
+    overflow-y: auto;  /* Scroll bar tabhi dikhega jab content overflow hoga */
+  }
+  
+  /* Scroll bar ki styling */
+  .scroll-container::-webkit-scrollbar {
+    width: 2px;
+    border-radius: 10px;  /* Scroll bar ki width */
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: #888;  /* Scroll bar ka color */
+    border-radius: 10px;  /* Rounded corners */
+  }
+  
+  
+  
